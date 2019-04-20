@@ -13,4 +13,4 @@ RUN npm i --engine-strict=true --progress=false --loglevel="error" \
 ENV REMOTE_URL=http://static.oak.host/signage/index.html
 
 # Define the command to run your app using `CMD` which defines your runtime.
-CMD ["/app"]
+CMD ["/app/src/index.js"]
