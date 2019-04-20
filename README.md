@@ -1,24 +1,32 @@
 # app-example
 
-App repository for Mastercard
+An example app that is descibed in more detail at https://docs.zivelo.com/docs/writing-a-simple-application
 
-## Install
+## Running locally
 
-Please use [`nvm`](https://github.com/creationix/nvm#install-script) to install node.
+Make sure that you are running the right version of Node locally. You will find the required version in the `.nvmrc` file
+If you are not running the same version (`node -v`) then you will need to run 
 
-```
-# use the node version for oak
-nvm use $(cat .nvmrc)
-
-# install dependencies
-npm install
-
-# rebuilds native modules for oak
-./node_modules/.bin/oak-rebuild .
+``` bash
+nvm install $(cat .nvmrc)
+npm run rebuild
 ```
 
-## Running
+### Now you can run electron locally
 
+``` bash
+npm run dev
 ```
-npm start
+
+### Running in a docker container
+
+``` bash
+xhost +
+docker-compose up --build
+```
+
+### Shutting down the  docker container
+
+``` bash
+docker-compose down
 ```
