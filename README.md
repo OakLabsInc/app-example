@@ -35,13 +35,14 @@ docker-compose down
 
 ``` json
 {
-    "services": [{
-            "image": "index.docker.io/oaklabs/app-example:release-1.0.1",
-            "environment": {
-                "TZ": "America/Pheonix"
-            }
-        }
-    ]
+  "services": [
+    {
+      "image": "index.docker.io/oaklabs/app-example:release-1.0.1",
+      "environment": {
+        "TZ": "America/Pheonix"
+      }
+    }
+  ]
 }
 
 ```
