@@ -30,3 +30,18 @@ docker-compose up --build
 ``` bash
 docker-compose down
 ```
+
+## Example Installation
+
+``` json
+{
+    "services": [{
+            "image": "index.docker.io/oaklabs/app-example:release-1.0.1",
+            "environment": {
+                "TZ": "America/Pheonix"
+            }
+        }
+    ]
+}
+
+```
