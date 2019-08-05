@@ -39,7 +39,7 @@ docker-compose down
     {
       "image": "index.docker.io/oaklabs/app-example:release-1.0.1",
       "environment": {
-        "TZ": "America/Pheonix"
+        "TZ": "America/Phoenix"
       }
     }
   ]
