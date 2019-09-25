@@ -1,6 +1,6 @@
 version: '2'
 services:
-	app-example:
+  app-example:
     build: .
     container_name: app-example
     image: oaklabs/app-example:latest
