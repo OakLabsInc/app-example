@@ -2,6 +2,8 @@
 
 An example app that is descibed in more detail at <https://docs.zivelo.com/docs/writing-a-simple-application>
 
+> Sample. Not to be used for production deployments
+
 ## Running locally
 
 Make sure that you are running the right version of Node locally. You will find the required version in the `.nvmrc` file
