@@ -1,6 +1,6 @@
 {
   "name": "app-example",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "App repository as an example",
   "main": "src/index.js",
   "engines": {
