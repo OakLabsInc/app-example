@@ -20,18 +20,29 @@ npm run rebuild
 npm run dev
 ```
 
-### Running in a docker container
+### Running and building in a docker container
 
 ``` bash
 xhost +
 docker-compose up --build
 ```
 
+### Running  a docker container again
+
+``` bash
+docker-compose up
+```
+
 ### Shutting down the  docker container
 
 ``` bash
+# and to stop
+Control + c
+Control + c
 docker-compose down
 ```
+
+> Make sure to bring docker-compose down every time you run `docker-compose up`
 
 ## Example Installation
 
