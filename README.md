@@ -50,7 +50,7 @@ docker-compose down
 {
   "services": [
     {
-      "image": "index.docker.io/oaklabs/app-example:release-2.0.0",
+      "image": "index.docker.io/oaklabs/app-example:latest",
       "environment": {
         "TZ": "America/Phoenix"
       }
