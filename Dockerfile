@@ -1,4 +1,4 @@
-FROM oaklabs/oak:6.0.1
+FROM oaklabs/oak:7.0.0
 
 # Create app directory inside the container
 WORKDIR /app
